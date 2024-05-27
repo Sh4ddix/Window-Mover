@@ -289,7 +289,7 @@ Public Class Form1
     End Sub
     Private Sub LoadTextBoxValues(filePath As String)
         If Not System.IO.File.Exists(filePath) Then
-            MessageBox.Show("Es wurde keine Datei mit Einstellungen gefunden!")
+            MessageBox.Show("Datei nicht gefunden.")
             Return
         End If
 
@@ -303,6 +303,8 @@ Public Class Form1
                     Dim ctrl As Control = Me.Controls.Find(ctrlName, True).FirstOrDefault()
                     If TypeOf ctrl Is TextBox Then
                         CType(ctrl, TextBox).Text = ctrlValue
+                    ElseIf TypeOf ctrl Is CheckBox Then
+                        CType(ctrl, CheckBox).Checked = Boolean.Parse(ctrlValue)
                     End If
                 End If
             End While
@@ -313,10 +315,12 @@ Public Class Form1
             For Each ctrl As Control In Me.Controls
                 If TypeOf ctrl Is TextBox Then
                     writer.WriteLine(ctrl.Name & "=" & ctrl.Text)
+                ElseIf TypeOf ctrl Is CheckBox Then
+                    writer.WriteLine(ctrl.Name & "=" & CType(ctrl, CheckBox).Checked.ToString())
                 End If
             Next
+            MessageBox.Show("Werte gespeichert.")
         End Using
-        MessageBox.Show("Werte gespeichert.")
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click

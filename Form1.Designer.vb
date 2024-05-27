@@ -549,7 +549,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(758, 318)
+        Me.ClientSize = New System.Drawing.Size(698, 304)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button20)
@@ -607,10 +607,9 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.Icon = CType(resources.GetObject("$this.Icon"),System.Drawing.Icon)
-        Me.MaximizeBox = false
-        Me.MdiChildrenMinimizedAnchorBottom = false
-        Me.MinimizeBox = false
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
+        Me.MdiChildrenMinimizedAnchorBottom = False
         Me.Name = "Form1"
         Me.Text = "Window Mover v1.0 by Tricky"
         Me.ResumeLayout(false)
