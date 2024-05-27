@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sebastian\\source\\repos\\WinFormsApp11\\WinFormsApp11.vbproj",
-      "projectName": "WinFormsApp11",
-      "projectPath": "C:\\Users\\Sebastian\\source\\repos\\WinFormsApp11\\WinFormsApp11.vbproj",
+      "projectUniqueName": "C:\\Users\\Sebastian\\source\\repos\\WinFormsApp11\\Window Mover.vbproj",
+      "projectName": "Window Mover",
+      "projectPath": "C:\\Users\\Sebastian\\source\\repos\\WinFormsApp11\\Window Mover.vbproj",
       "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Sebastian\\source\\repos\\WinFormsApp11\\obj\\",
       "projectStyle": "PackageReference",

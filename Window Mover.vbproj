@@ -6,7 +6,12 @@
     <StartupObject>Sub Main</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
+    <ApplicationIcon>1486348818-forward-arrows-arrow-front-go-blue_80478.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="1486348818-forward-arrows-arrow-front-go-blue_80478.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <Import Include="System.Data" />

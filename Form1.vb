@@ -289,7 +289,7 @@ Public Class Form1
     End Sub
     Private Sub LoadTextBoxValues(filePath As String)
         If Not System.IO.File.Exists(filePath) Then
-            MessageBox.Show("Datei nicht gefunden.")
+            MessageBox.Show("Es wurde keine Datei mit Einstellungen gefunden!")
             Return
         End If
 

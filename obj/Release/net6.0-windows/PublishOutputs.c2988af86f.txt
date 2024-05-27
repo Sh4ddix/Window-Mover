@@ -1,0 +1,5 @@
+E:\Test2\Window Mover.exe
+E:\Test2\Window Mover.dll
+E:\Test2\Window Mover.deps.json
+E:\Test2\Window Mover.runtimeconfig.json
+E:\Test2\Window Mover.pdb
