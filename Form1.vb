@@ -522,4 +522,22 @@ Public Class Form1
             Button7.PerformClick()
         End If
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        For i As Integer = 1 To 26
+            Dim tb As TextBox = CType(Me.Controls("TextBox" & i), TextBox)
+            If tb IsNot Nothing Then
+                tb.ReadOnly = True
+            End If
+        Next
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        For i As Integer = 1 To 26
+            Dim tb As TextBox = CType(Me.Controls("TextBox" & i), TextBox)
+            If tb IsNot Nothing Then
+                tb.ReadOnly = False
+            End If
+        Next
+    End Sub
 End Class

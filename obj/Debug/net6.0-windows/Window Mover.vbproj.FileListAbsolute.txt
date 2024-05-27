@@ -1,0 +1,18 @@
+C:\Users\Sebastian\source\repos\WinFormsApp11\bin\Debug\net6.0-windows\Window Mover.exe
+C:\Users\Sebastian\source\repos\WinFormsApp11\bin\Debug\net6.0-windows\Window Mover.deps.json
+C:\Users\Sebastian\source\repos\WinFormsApp11\bin\Debug\net6.0-windows\Window Mover.runtimeconfig.json
+C:\Users\Sebastian\source\repos\WinFormsApp11\bin\Debug\net6.0-windows\Window Mover.dll
+C:\Users\Sebastian\source\repos\WinFormsApp11\bin\Debug\net6.0-windows\Window Mover.pdb
+C:\Users\Sebastian\source\repos\WinFormsApp11\obj\Debug\net6.0-windows\Window Mover.vbproj.AssemblyReference.cache
+C:\Users\Sebastian\source\repos\WinFormsApp11\obj\Debug\net6.0-windows\Window_Mover.Form1.resources
+C:\Users\Sebastian\source\repos\WinFormsApp11\obj\Debug\net6.0-windows\Window_Mover.Form2.resources
+C:\Users\Sebastian\source\repos\WinFormsApp11\obj\Debug\net6.0-windows\Window Mover.vbproj.GenerateResource.cache
+C:\Users\Sebastian\source\repos\WinFormsApp11\obj\Debug\net6.0-windows\Window Mover.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sebastian\source\repos\WinFormsApp11\obj\Debug\net6.0-windows\Window Mover.AssemblyInfoInputs.cache
+C:\Users\Sebastian\source\repos\WinFormsApp11\obj\Debug\net6.0-windows\Window Mover.AssemblyInfo.vb
+C:\Users\Sebastian\source\repos\WinFormsApp11\obj\Debug\net6.0-windows\Window Mover.vbproj.CoreCompileInputs.cache
+C:\Users\Sebastian\source\repos\WinFormsApp11\obj\Debug\net6.0-windows\Window Mover.dll
+C:\Users\Sebastian\source\repos\WinFormsApp11\obj\Debug\net6.0-windows\refint\Window Mover.dll
+C:\Users\Sebastian\source\repos\WinFormsApp11\obj\Debug\net6.0-windows\Window Mover.pdb
+C:\Users\Sebastian\source\repos\WinFormsApp11\obj\Debug\net6.0-windows\Window Mover.genruntimeconfig.cache
+C:\Users\Sebastian\source\repos\WinFormsApp11\obj\Debug\net6.0-windows\ref\Window Mover.dll

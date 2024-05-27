@@ -77,11 +77,13 @@ Partial Class Form1
         Me.Button18 = New System.Windows.Forms.Button()
         Me.Button19 = New System.Windows.Forms.Button()
         Me.Button20 = New System.Windows.Forms.Button()
-        Me.SuspendLayout
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
         '
         'Label1
         '
-        Me.Label1.AutoSize = true
+        Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(12, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(106, 15)
@@ -258,7 +260,7 @@ Partial Class Form1
         '
         'Label2
         '
-        Me.Label2.AutoSize = true
+        Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(240, 9)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(49, 15)
@@ -267,7 +269,7 @@ Partial Class Form1
         '
         'Label3
         '
-        Me.Label3.AutoSize = true
+        Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(300, 9)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(49, 15)
@@ -281,7 +283,7 @@ Partial Class Form1
         Me.Button3.Size = New System.Drawing.Size(92, 23)
         Me.Button3.TabIndex = 32
         Me.Button3.Text = "Verschieben"
-        Me.Button3.UseVisualStyleBackColor = true
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
         '
@@ -290,7 +292,7 @@ Partial Class Form1
         Me.Button4.Size = New System.Drawing.Size(92, 23)
         Me.Button4.TabIndex = 33
         Me.Button4.Text = "Verschieben"
-        Me.Button4.UseVisualStyleBackColor = true
+        Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
         '
@@ -299,7 +301,7 @@ Partial Class Form1
         Me.Button5.Size = New System.Drawing.Size(92, 23)
         Me.Button5.TabIndex = 35
         Me.Button5.Text = "Verschieben"
-        Me.Button5.UseVisualStyleBackColor = true
+        Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
         '
@@ -308,7 +310,7 @@ Partial Class Form1
         Me.Button6.Size = New System.Drawing.Size(92, 23)
         Me.Button6.TabIndex = 34
         Me.Button6.Text = "Verschieben"
-        Me.Button6.UseVisualStyleBackColor = true
+        Me.Button6.UseVisualStyleBackColor = True
         '
         'Button7
         '
@@ -317,7 +319,7 @@ Partial Class Form1
         Me.Button7.Size = New System.Drawing.Size(92, 23)
         Me.Button7.TabIndex = 39
         Me.Button7.Text = "Verschieben"
-        Me.Button7.UseVisualStyleBackColor = true
+        Me.Button7.UseVisualStyleBackColor = True
         '
         'Button8
         '
@@ -326,7 +328,7 @@ Partial Class Form1
         Me.Button8.Size = New System.Drawing.Size(92, 23)
         Me.Button8.TabIndex = 38
         Me.Button8.Text = "Verschieben"
-        Me.Button8.UseVisualStyleBackColor = true
+        Me.Button8.UseVisualStyleBackColor = True
         '
         'Button9
         '
@@ -335,7 +337,7 @@ Partial Class Form1
         Me.Button9.Size = New System.Drawing.Size(92, 23)
         Me.Button9.TabIndex = 37
         Me.Button9.Text = "Verschieben"
-        Me.Button9.UseVisualStyleBackColor = true
+        Me.Button9.UseVisualStyleBackColor = True
         '
         'Button10
         '
@@ -344,21 +346,21 @@ Partial Class Form1
         Me.Button10.Size = New System.Drawing.Size(92, 23)
         Me.Button10.TabIndex = 36
         Me.Button10.Text = "Verschieben"
-        Me.Button10.UseVisualStyleBackColor = true
+        Me.Button10.UseVisualStyleBackColor = True
         '
         'CheckBox1
         '
-        Me.CheckBox1.AutoSize = true
+        Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Location = New System.Drawing.Point(477, 29)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(81, 19)
         Me.CheckBox1.TabIndex = 40
         Me.CheckBox1.Text = "deaktiviert"
-        Me.CheckBox1.UseVisualStyleBackColor = true
+        Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'Label4
         '
-        Me.Label4.AutoSize = true
+        Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(477, 9)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(80, 15)
@@ -367,73 +369,73 @@ Partial Class Form1
         '
         'CheckBox2
         '
-        Me.CheckBox2.AutoSize = true
+        Me.CheckBox2.AutoSize = True
         Me.CheckBox2.Location = New System.Drawing.Point(477, 60)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(81, 19)
         Me.CheckBox2.TabIndex = 42
         Me.CheckBox2.Text = "deaktiviert"
-        Me.CheckBox2.UseVisualStyleBackColor = true
+        Me.CheckBox2.UseVisualStyleBackColor = True
         '
         'CheckBox3
         '
-        Me.CheckBox3.AutoSize = true
+        Me.CheckBox3.AutoSize = True
         Me.CheckBox3.Location = New System.Drawing.Point(477, 89)
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(81, 19)
         Me.CheckBox3.TabIndex = 43
         Me.CheckBox3.Text = "deaktiviert"
-        Me.CheckBox3.UseVisualStyleBackColor = true
+        Me.CheckBox3.UseVisualStyleBackColor = True
         '
         'CheckBox4
         '
-        Me.CheckBox4.AutoSize = true
+        Me.CheckBox4.AutoSize = True
         Me.CheckBox4.Location = New System.Drawing.Point(477, 118)
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(81, 19)
         Me.CheckBox4.TabIndex = 44
         Me.CheckBox4.Text = "deaktiviert"
-        Me.CheckBox4.UseVisualStyleBackColor = true
+        Me.CheckBox4.UseVisualStyleBackColor = True
         '
         'CheckBox5
         '
-        Me.CheckBox5.AutoSize = true
+        Me.CheckBox5.AutoSize = True
         Me.CheckBox5.Location = New System.Drawing.Point(477, 147)
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(81, 19)
         Me.CheckBox5.TabIndex = 45
         Me.CheckBox5.Text = "deaktiviert"
-        Me.CheckBox5.UseVisualStyleBackColor = true
+        Me.CheckBox5.UseVisualStyleBackColor = True
         '
         'CheckBox6
         '
-        Me.CheckBox6.AutoSize = true
+        Me.CheckBox6.AutoSize = True
         Me.CheckBox6.Location = New System.Drawing.Point(477, 176)
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(81, 19)
         Me.CheckBox6.TabIndex = 46
         Me.CheckBox6.Text = "deaktiviert"
-        Me.CheckBox6.UseVisualStyleBackColor = true
+        Me.CheckBox6.UseVisualStyleBackColor = True
         '
         'CheckBox7
         '
-        Me.CheckBox7.AutoSize = true
+        Me.CheckBox7.AutoSize = True
         Me.CheckBox7.Location = New System.Drawing.Point(477, 203)
         Me.CheckBox7.Name = "CheckBox7"
         Me.CheckBox7.Size = New System.Drawing.Size(81, 19)
         Me.CheckBox7.TabIndex = 47
         Me.CheckBox7.Text = "deaktiviert"
-        Me.CheckBox7.UseVisualStyleBackColor = true
+        Me.CheckBox7.UseVisualStyleBackColor = True
         '
         'CheckBox8
         '
-        Me.CheckBox8.AutoSize = true
+        Me.CheckBox8.AutoSize = True
         Me.CheckBox8.Location = New System.Drawing.Point(477, 232)
         Me.CheckBox8.Name = "CheckBox8"
         Me.CheckBox8.Size = New System.Drawing.Size(81, 19)
         Me.CheckBox8.TabIndex = 48
         Me.CheckBox8.Text = "deaktiviert"
-        Me.CheckBox8.UseVisualStyleBackColor = true
+        Me.CheckBox8.UseVisualStyleBackColor = True
         '
         'Button11
         '
@@ -442,7 +444,7 @@ Partial Class Form1
         Me.Button11.Size = New System.Drawing.Size(113, 23)
         Me.Button11.TabIndex = 49
         Me.Button11.Text = "Position erfassen"
-        Me.Button11.UseVisualStyleBackColor = true
+        Me.Button11.UseVisualStyleBackColor = True
         '
         'Button12
         '
@@ -451,7 +453,7 @@ Partial Class Form1
         Me.Button12.Size = New System.Drawing.Size(113, 23)
         Me.Button12.TabIndex = 50
         Me.Button12.Text = "Position erfassen"
-        Me.Button12.UseVisualStyleBackColor = true
+        Me.Button12.UseVisualStyleBackColor = True
         '
         'Button13
         '
@@ -460,7 +462,7 @@ Partial Class Form1
         Me.Button13.Size = New System.Drawing.Size(113, 23)
         Me.Button13.TabIndex = 52
         Me.Button13.Text = "Position erfassen"
-        Me.Button13.UseVisualStyleBackColor = true
+        Me.Button13.UseVisualStyleBackColor = True
         '
         'Button14
         '
@@ -469,7 +471,7 @@ Partial Class Form1
         Me.Button14.Size = New System.Drawing.Size(113, 23)
         Me.Button14.TabIndex = 51
         Me.Button14.Text = "Position erfassen"
-        Me.Button14.UseVisualStyleBackColor = true
+        Me.Button14.UseVisualStyleBackColor = True
         '
         'Button15
         '
@@ -478,7 +480,7 @@ Partial Class Form1
         Me.Button15.Size = New System.Drawing.Size(113, 23)
         Me.Button15.TabIndex = 56
         Me.Button15.Text = "Position erfassen"
-        Me.Button15.UseVisualStyleBackColor = true
+        Me.Button15.UseVisualStyleBackColor = True
         '
         'Button16
         '
@@ -487,7 +489,7 @@ Partial Class Form1
         Me.Button16.Size = New System.Drawing.Size(113, 23)
         Me.Button16.TabIndex = 55
         Me.Button16.Text = "Position erfassen"
-        Me.Button16.UseVisualStyleBackColor = true
+        Me.Button16.UseVisualStyleBackColor = True
         '
         'Button17
         '
@@ -496,7 +498,7 @@ Partial Class Form1
         Me.Button17.Size = New System.Drawing.Size(113, 23)
         Me.Button17.TabIndex = 54
         Me.Button17.Text = "Position erfassen"
-        Me.Button17.UseVisualStyleBackColor = true
+        Me.Button17.UseVisualStyleBackColor = True
         '
         'Button18
         '
@@ -505,7 +507,7 @@ Partial Class Form1
         Me.Button18.Size = New System.Drawing.Size(113, 23)
         Me.Button18.TabIndex = 53
         Me.Button18.Text = "Position erfassen"
-        Me.Button18.UseVisualStyleBackColor = true
+        Me.Button18.UseVisualStyleBackColor = True
         '
         'Button19
         '
@@ -514,7 +516,7 @@ Partial Class Form1
         Me.Button19.Size = New System.Drawing.Size(143, 23)
         Me.Button19.TabIndex = 57
         Me.Button19.Text = "Einstellungen speichern"
-        Me.Button19.UseVisualStyleBackColor = true
+        Me.Button19.UseVisualStyleBackColor = True
         '
         'Button20
         '
@@ -523,13 +525,33 @@ Partial Class Form1
         Me.Button20.Size = New System.Drawing.Size(193, 23)
         Me.Button20.TabIndex = 58
         Me.Button20.Text = "Alle Fenster Verschieben"
-        Me.Button20.UseVisualStyleBackColor = true
+        Me.Button20.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(360, 269)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(145, 23)
+        Me.Button1.TabIndex = 59
+        Me.Button1.Text = "Eingabe sperren"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(526, 269)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(151, 23)
+        Me.Button2.TabIndex = 60
+        Me.Button2.Text = "Eingabe entsperren"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7!, 15!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(758, 318)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button20)
         Me.Controls.Add(Me.Button19)
         Me.Controls.Add(Me.Button15)
@@ -649,4 +671,6 @@ End Sub
     Friend WithEvents Button18 As Button
     Friend WithEvents Button19 As Button
     Friend WithEvents Button20 As Button
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class
